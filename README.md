@@ -18,6 +18,7 @@ Project structure template layout
     |   |   |   └── style-name.css
     |   |   └── style.css
     |   └── javascripts
+    |       ├── module.js
     |       ├── screenName.js
     |       └── index.js
     ├── modules
