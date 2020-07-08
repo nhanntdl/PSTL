@@ -19,11 +19,11 @@ Project structure template layout
     |   |   |   └── style.css
     |   |   ├── javascripts
     |   ├── modules
-    |       ├── module-name
-    |       |   └── index.html
-    |       ├── header
-    |       |   └── index.html
-    |       └── footer
+    |   |   ├── module-name
+    |   |   |   └── index.html
+    |   |   ├── header
+    |   |   |   └── index.html
+    |   |   └── footer
     |   |   |   └── index.html
     └── README.md
 
