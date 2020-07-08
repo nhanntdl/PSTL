@@ -7,7 +7,7 @@ Project structure template layout
     ├── common.html
     |   ├── screens
     |   |   ├── screen-name
-    |   |   |   └── index.html
+    |   |       └── index.html
     |   ├── asset
     |   |   ├── styles
     |   |   |   ├── header
@@ -17,14 +17,15 @@ Project structure template layout
     |   |   |   ├── style-name
     |   |   |   |   ├── style-name.css
     |   |   |   └── style.css
-    |   |   ├── javascripts
-    |   ├── modules
-    |   |   ├── module-name
-    |   |   |   └── index.html
-    |   |   ├── header
-    |   |   |   └── index.html
-    |   |   └── footer
-    |   |   |   └── index.html
+    |   |   └── javascripts
+    |   |       └── index.js
+    |   └── modules
+    |       ├── module-name
+    |       |   └── index.html
+    |       ├── header
+    |       |   └── index.html
+    |       └── footer
+    |           └── index.html
     └── README.md
 
 # Editor and Plugin
