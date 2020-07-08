@@ -3,23 +3,23 @@ Project structure template layout
 
 # Project files structure
     .
-    ├── index.html
-    ├── screens
-    |   ├── screen-name
-    |   |   └── index.html
-    |   └── ...
-    |       └── index.html
-    ├── asset
-    |   ├── fonts
-    |   |   ├── font-file
-    |   |   └── ...
-    |   ├── images
-    |   |   ├── screen-name
-    |   |   |   ├── image-name.png
-    |   |   |   └── ...
-    |   |   └── ...
+    ├── index.html                              # This file is the router, it will redirect to `your_config` page
+    ├── screens                                 # This folder contains all screen of your website
+    |   ├── screen-name                         # This folder contains index.html file. The name foler is the directory on URL
+    |   |   └── index.html                      # This is index.html file, which contains all content of a single page 
+    |   └── ...                                 # This folder contains index.html file. The name foler is the directory on URL
+    |       └── index.html                      # This is index.html file, which contains all content of a single page
+    ├── asset                                   # This folder contains all asset of your website
+    |   ├── fonts                               # This folder contains the fonts, which is used for website
+    |   |   ├── font-file                       # This file is the config file of the font
+    |   |   └── ...                             # This file is the config file of the font
+    |   ├── images                              # This folder contains all images, which is used for website
+    |   |   ├── screen-name                     # This folder contains all images of a screen
+    |   |   |   ├── image-name.png              # This file is a image of screen
+    |   |   |   └── ...                         # This file is a image of screen
+    |   |   └── ...                             # This folder contains all images of a screen
     |   ├── styles
-    |   |   ├── module
+    |   |   ├── modules
     |   |   |   ├── header.css
     |   |   |   ├── footer.css
     |   |   |   └── ...
