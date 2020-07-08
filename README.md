@@ -1,10 +1,16 @@
 # PSTL
 Project structure template layout
 
-# Folder structure
+# Project files structure
     .
     ├── index.html
     ├── common.html
+    |   ├── screens
+    |   |   ├── screen-name
+    |   |   |   ├── index.html
+    |   ├── modules
+    |   |   ├── module-name
+    |   |   |   ├── index.html
     └── README.md
 
 # Editor and Plugin
