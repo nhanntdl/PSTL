@@ -19,7 +19,7 @@ Project structure template layout
     |   |   |   └── ...                   # This file is a image of screen
     |   |   └── ...                       # This folder contains all images of a screen
     |   ├── styles                        #
-    |   |   ├── modules                   #
+    |   |   ├── modules                   # gggg
     |   |   |   ├── header.css
     |   |   |   ├── footer.css
     |   |   |   └── ...
