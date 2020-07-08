@@ -11,11 +11,11 @@ Project structure template layout
     |   ├── asset
     |   |   ├── styles
     |   |   |   ├── header
-    |   |   |   |   ├── header.css
+    |   |   |   |   └── header.css
     |   |   |   ├── footer
-    |   |   |   |   ├── footer.css
+    |   |   |   |   └── footer.css
     |   |   |   ├── style-name
-    |   |   |   |   ├── style-name.css
+    |   |   |   |   └── style-name.css
     |   |   |   └── style.css
     |   |   └── javascripts
     |   |       └── index.js
