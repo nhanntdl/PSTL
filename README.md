@@ -5,27 +5,28 @@ Project structure template layout
     .
     ├── index.html
     ├── common.html
-    |   ├── screens
-    |   |   ├── screen-name
-    |   |       └── index.html
-    |   ├── asset
-    |   |   ├── styles
-    |   |   |   ├── header
-    |   |   |   |   └── header.css
-    |   |   |   ├── footer
-    |   |   |   |   └── footer.css
-    |   |   |   ├── style-name
-    |   |   |   |   └── style-name.css
-    |   |   |   └── style.css
-    |   |   └── javascripts
-    |   |       └── index.js
-    |   └── modules
-    |       ├── module-name
-    |       |   └── index.html
-    |       ├── header
-    |       |   └── index.html
-    |       └── footer
-    |           └── index.html
+    ├── screens
+    |   └── screen-name
+    |       └── index.html
+    ├── asset
+    |   ├── styles
+    |   |   ├── header
+    |   |   |   └── header.css
+    |   |   ├── footer
+    |   |   |   └── footer.css
+    |   |   ├── style-name
+    |   |   |   └── style-name.css
+    |   |   └── style.css
+    |   └── javascripts
+    |       ├── screenName.js
+    |       └── index.js
+    ├── modules
+    |   ├── module-name
+    |   |   └── index.html
+    |   ├── header
+    |   |   └── index.html
+    |   └── footer
+    |       └── index.html
     └── README.md
 
 # Editor and Plugin
