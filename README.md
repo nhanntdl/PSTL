@@ -1,10 +1,18 @@
 # PSTL
 Project structure template layout
 
-# Live Server
+# Folder structure
+    .
+    ├── index.html
+    ├── common.html
+    └── README.md
+
+# Editor and Plugin
+
+## Live Server
 * Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to Quick Development Live Server with live browser reload.
 
-# Formatting Rule
+## Formatting Rule
 * Source code must be format by **[Prettier Code Formatter](https://prettier.io/)**
 * [_How to use Prettier Code Formatter_](https://prettier.io/): Item `Editor Support`
 * If you use `scss` to style, install plugin [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
