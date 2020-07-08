@@ -4,7 +4,6 @@ Project structure template layout
 # Project files structure
     .
     ├── index.html
-    ├── common.html
     ├── screens
     |   └── screen-name
     |       └── index.html
@@ -22,6 +21,8 @@ Project structure template layout
     |       ├── screenName.js
     |       └── index.js
     ├── modules
+    |   ├── common
+    |   |   └── index.html
     |   ├── module-name
     |   |   └── index.html
     |   ├── header
