@@ -5,16 +5,23 @@ Project structure template layout
     .
     ├── index.html
     ├── screens
-    |   └── screen-name
+    |   ├── screen-name
+    |   |   └── index.html
+    |   └── ...
     |       └── index.html
     ├── asset
+    |   ├── images
+    |   |   ├── screen-name
+    |   |   |   ├── image-name.png
+    |   |   |   └── ...
     |   ├── styles
-    |   |   ├── header
-    |   |   |   └── header.css
-    |   |   ├── footer
+    |   |   ├── module
+    |   |   |   ├── header.css
     |   |   |   └── footer.css
     |   |   ├── style-name
     |   |   |   └── style-name.css
+    |   |   ├── ...
+    |   |   |   └── ...
     |   |   └── style.css
     |   └── javascripts
     |       ├── module.js
