@@ -10,14 +10,19 @@ Project structure template layout
     |   └── ...
     |       └── index.html
     ├── asset
+    |   ├── fonts
+    |   |   ├── font-file
+    |   |   └── ...
     |   ├── images
     |   |   ├── screen-name
     |   |   |   ├── image-name.png
     |   |   |   └── ...
+    |   |   └── ...
     |   ├── styles
     |   |   ├── module
     |   |   |   ├── header.css
-    |   |   |   └── footer.css
+    |   |   |   ├── footer.css
+    |   |   |   └── ...
     |   |   ├── style-name
     |   |   |   └── style-name.css
     |   |   ├── ...
