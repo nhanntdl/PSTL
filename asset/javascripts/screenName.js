@@ -1,2 +1,2 @@
-window.location.href = "../modules/module-name/home/";
+window.location.href = "../../../screens/home/";
 let bug = "";
