@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to right,#3494E6,#EC6EAD);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content p{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(226, 210, 223);
+}

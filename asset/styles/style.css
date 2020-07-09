@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/home/background_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* linear-gradient(rgba(51, 51, 204,0.8),rgba(48,48,110,0.8)), */
+}
+
+.main-nav ul a{
+    text-decoration: none;
+    color: rgb(207, 203, 214);
+    font-size: 130%;
+}
+
+.main-nav ul li{
+    display: inline-block;
+    margin: 20px;
+    transition: all 0.5s;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.main-nav ul li:hover{
+        border-bottom: 2px solid rgb(141, 139, 163);
+}
