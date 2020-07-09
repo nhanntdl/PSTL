@@ -18,29 +18,29 @@ Project structure template layout
     |   |   |   ├── image-name.png        # This file is a image of screen
     |   |   |   └── ...                   # This file is a image of screen
     |   |   └── ...                       # This folder contains all images of a screen
-    |   ├── styles                        #
-    |   |   ├── modules                   # gggg
+    |   ├── styles                        # This folder contains all stylesheet file of the website
+    |   |   ├── modules                   # This folder contains all stylesheet file of modules
     |   |   |   ├── header.css
     |   |   |   ├── footer.css
     |   |   |   └── ...
-    |   |   ├── style-name
+    |   |   ├── style-name                # This folder contains all stylesheet file of a screen
     |   |   |   └── style-name.css
-    |   |   ├── ...
+    |   |   ├── ...                       # This folder contains all stylesheet file of a screen
     |   |   |   └── ...
-    |   |   └── style.css
-    |   └── javascripts
-    |       ├── modules
+    |   |   └── style.css                 # This file contains stylesheet of common element in the website
+    |   └── javascripts                   # This folder contains script of website
+    |       ├── modules                   # This folder contains all script file of modules
     |       |   └── moduleName.js
-    |       ├── screenName.js
-    |       └── index.js
-    ├── modules
-    |   ├── common
+    |       ├── screenName.js             # This file contains script of a screen
+    |       └── index.js                  # This file contains script common
+    ├── modules                           # This folder contains all module of website
+    |   ├── common                        # This folder contains the common element
     |   |   └── index.html
-    |   ├── module-name
+    |   ├── module-name                   # This folder contains the `module-name` element
     |   |   └── index.html
-    |   ├── header
+    |   ├── header                        # This folder contains the header module
     |   |   └── index.html
-    |   └── footer
+    |   └── footer                        # This folder contains the footer module
     |       └── index.html
     └── README.md
 
