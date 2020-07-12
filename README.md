@@ -4,12 +4,13 @@ Project structure template layout
 # Project files structure
     .
     ├── index.html                        # This file is the router, it will redirect to `your_config` page
-    ├── screens                           # This folder contains all screen of your website
-    |   ├── screen-name                   # This folder contains index.html file. The name foler is the directory on URL
+    ├── screen-name                       # This folder contains index.html file. The name foler is the directory on URL
+    |   |   └── index.html                # This folder contains all screen of your website
+    ├── screen-name                       # This folder contains index.html file. The name foler is the directory on URL
     |   |   └── index.html                # This is index.html file, which contains all content of a single page 
     |   └── ...                           # This folder contains index.html file. The name foler is the directory on URL
     |       └── index.html                # This is index.html file, which contains all content of a single page
-    ├── assets                             # This folder contains all asset of your website
+    ├── assets                            # This folder contains all asset of your website
     |   ├── fonts                         # This folder contains the fonts, which is used for website
     |   |   ├── font-file                 # This file is the config file of the font
     |   |   └── ...                       # This file is the config file of the font
